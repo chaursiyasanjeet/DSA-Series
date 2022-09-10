@@ -12,7 +12,7 @@ int common(int arr1[], int size1, int arr2[], int size2)
             if (element == arr2[j]) // comparing element
             {
                 cout << element << endl;
-                arr2[j] = -3;
+                arr2[j] = -3; // inserting a garbage value so that it would'nt be compare again.
                 break;
             }
         }

@@ -11,7 +11,7 @@ void printarray(int arr[], int n)
 int sortzero_one(int arr[], int size)
 {
     int left = 0, right = size - 1;
-    while (left < right) // jab taj left right se chhota ho
+    while (left < right) // jab tak left right se chhota ho
     {
         while (arr[left] == 0 && left < right) // agr left me zero hai to swap nhi krna hai usko age badha do
         {
