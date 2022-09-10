@@ -1,5 +1,6 @@
+// To find unique element in which other element have duplicate element in an array.
 #include <iostream>
-using namespace std;
+using namespace std; // link-https://www.codingninjas.com/codestudio/problems/find-unique_625159?source=youtube&campaign=love_babbar_codestudio1&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio1
 int findunique(int arr[], int size)
 {
     int ans = 0;
