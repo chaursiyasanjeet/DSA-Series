@@ -9,7 +9,7 @@ int keyfound(int arr[], int size, int key)
     // mid=(start+end)/2 This will not work if the array index is greater than 2^31 so we will use the below formula to avoid the problem
     int mid = start + (end - start) / 2; // now updating mid.
 
-    while (start < end)
+    while (start < = end)
     {
         if (arr[mid] = key)
         {
