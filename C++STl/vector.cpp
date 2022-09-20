@@ -13,7 +13,7 @@ int main()
     vector<int> a(5, 1); // in a(size of vector,intializing element)
     cout << "Print a" << endl;
     // printing vector
-    for (int i : a)
+    for (auto i : a)
     {
         cout << i << " ";
     }
