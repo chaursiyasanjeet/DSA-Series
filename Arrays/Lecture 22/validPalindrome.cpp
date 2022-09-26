@@ -1,6 +1,7 @@
 // alpha aur numeric ko chhod ko baki charcter ko hatana hai
 // uppercase ko lowercase me karna hai
 // aur phir palindrome check karna hai
+// ulta padhne pe bhi same aye
 
 #include <iostream>
 using namespace std;
@@ -8,7 +9,7 @@ using namespace std;
 // checking character is valid or not
 bool valid(char ch)
 {
-    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || (ch >= '0' && ch <= '9'))
+    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || (ch >= 1 && ch <= 9))
     {
         return 1;
     }
@@ -70,6 +71,6 @@ bool isPlaindrome(string s)
 int main()
 {
     string s;
-    s = {1, 's', 'A', '@', 4, 'A', 's'};
+    s = {1, 's', 'A', '@', 4, 'a', 's'};
     cout << "Valid or not->" << isPlaindrome(s) << endl;
 }
